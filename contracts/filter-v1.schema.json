@@ -1,0 +1,285 @@
+{
+  "$defs": {
+    "BetweenCondition": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "enum": [
+            "id",
+            "name",
+            "status",
+            "rating",
+            "capacity",
+            "area_m2",
+            "length_m",
+            "opening_date",
+            "is_accessible",
+            "source",
+            "source_id"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "op": {
+          "const": "between",
+          "title": "Op",
+          "type": "string"
+        },
+        "lower": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            }
+          ],
+          "title": "Lower"
+        },
+        "upper": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            }
+          ],
+          "title": "Upper"
+        }
+      },
+      "required": [
+        "field",
+        "op",
+        "lower",
+        "upper"
+      ],
+      "title": "BetweenCondition",
+      "type": "object"
+    },
+    "InCondition": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "enum": [
+            "id",
+            "name",
+            "status",
+            "rating",
+            "capacity",
+            "area_m2",
+            "length_m",
+            "opening_date",
+            "is_accessible",
+            "source",
+            "source_id"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "op": {
+          "const": "in",
+          "title": "Op",
+          "type": "string"
+        },
+        "values": {
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              }
+            ]
+          },
+          "minItems": 1,
+          "title": "Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "field",
+        "op",
+        "values"
+      ],
+      "title": "InCondition",
+      "type": "object"
+    },
+    "ScalarCondition": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "enum": [
+            "id",
+            "name",
+            "status",
+            "rating",
+            "capacity",
+            "area_m2",
+            "length_m",
+            "opening_date",
+            "is_accessible",
+            "source",
+            "source_id"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "op": {
+          "enum": [
+            "eq",
+            "gt",
+            "gte",
+            "lt",
+            "lte",
+            "contains"
+          ],
+          "title": "Op",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            }
+          ],
+          "title": "Value"
+        }
+      },
+      "required": [
+        "field",
+        "op",
+        "value"
+      ],
+      "title": "ScalarCondition",
+      "type": "object"
+    },
+    "YearCondition": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "const": "opening_date",
+          "title": "Field",
+          "type": "string"
+        },
+        "op": {
+          "const": "year",
+          "title": "Op",
+          "type": "string"
+        },
+        "value": {
+          "maximum": 9999,
+          "minimum": 1,
+          "title": "Value",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "field",
+        "op",
+        "value"
+      ],
+      "title": "YearCondition",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "operation": {
+      "enum": [
+        "search_objects",
+        "count_by_region"
+      ],
+      "title": "Operation",
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "school",
+        "hospital",
+        "pharmacy",
+        "park",
+        "improvement_zone"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "conditions": {
+      "description": "Бюджет условий: 32765 параметров; between/year стоят 2, остальные, включая весь список in, стоят 1.",
+      "items": {
+        "discriminator": {
+          "mapping": {
+            "between": "#/$defs/BetweenCondition",
+            "contains": "#/$defs/ScalarCondition",
+            "eq": "#/$defs/ScalarCondition",
+            "gt": "#/$defs/ScalarCondition",
+            "gte": "#/$defs/ScalarCondition",
+            "in": "#/$defs/InCondition",
+            "lt": "#/$defs/ScalarCondition",
+            "lte": "#/$defs/ScalarCondition",
+            "year": "#/$defs/YearCondition"
+          },
+          "propertyName": "op"
+        },
+        "oneOf": [
+          {
+            "$ref": "#/$defs/ScalarCondition"
+          },
+          {
+            "$ref": "#/$defs/BetweenCondition"
+          },
+          {
+            "$ref": "#/$defs/InCondition"
+          },
+          {
+            "$ref": "#/$defs/YearCondition"
+          }
+        ]
+      },
+      "maxItems": 32765,
+      "title": "Conditions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "operation",
+    "category",
+    "conditions"
+  ],
+  "title": "FilterV1",
+  "type": "object"
+}

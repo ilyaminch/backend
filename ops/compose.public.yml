@@ -1,0 +1,33 @@
+# Last override after local + ollama + demo. PUBLIC_ORIGIN comes from .local/public.env.
+services:
+  backend:
+    # Public traffic reaches this backend only through the static frontend proxy.
+    ports: !reset []
+    environment:
+      APP_ENV: demo
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?Set HTTPS public URL in .local/public.env}
+      COOKIE_SECURE: "true"
+
+  frontend:
+    image: nginxinc/nginx-unprivileged@sha256:f5116ed4606f3eb015dd4a8e28cb9b351476dc0ad4bc6e9f93b19cec130cdf03
+    restart: unless-stopped
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    ports:
+      - 127.0.0.1:8088:8080
+    volumes:
+      - ../.local/public-frontend:/usr/share/nginx/html:ro
+      - ./nginx.public.conf:/etc/nginx/conf.d/default.conf:ro
+    tmpfs:
+      - /tmp
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, http://127.0.0.1:8080/]
+      interval: 10s
+      timeout: 3s
+      retries: 12

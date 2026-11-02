@@ -1,0 +1,3277 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "osm_tomsk_full",
+      "title": "OpenStreetMap — объекты четырёх районов Томска",
+      "url": "https://overpass-api.de/api/interpreter",
+      "snapshot_date": "2026-10-22",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Полный ответ и запрос сохранены в inputs; преобразования перечислены в report.json; искусственные свойства отмечены в synthetic_fields."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "162501453",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95144509345798,
+          56.48935015
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Институт курортологии и физиотерапии",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16250145",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2024-07-13T12:02:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "235980972",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97560803993196,
+          56.513494699999995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Поликлиника № 10",
+        "opening_date": "2016-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/23598097",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-11-15T03:53:36Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "396624812",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95004432633725,
+          56.4576041
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Госпитальные клиники им А.Г.Савиных",
+        "opening_date": "2024-02-29",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/39662481",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2021-10-03T18:40:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "396624822",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94851320345376,
+          56.45751665
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "НИИ онкологии",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/39662482",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-01-29T06:56:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "906053742",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99743414272743,
+          56.476675650000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Максимум Здоровья",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/90605374",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-22T15:30:38Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "966951992",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95174422449752,
+          56.4830788
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Поликлиника № 2",
+        "opening_date": "2017-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96695199",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2024-11-14T10:08:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "968507182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95013981014046,
+          56.5012604
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/96850718",
+        "opening_date": "2016-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96850718",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-18T06:06:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1048055682",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95126642107502,
+          56.4688352
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Поликлиника №1",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/104805568",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-18T03:47:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087188612",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00616800108256,
+          56.4802527
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "МСЧ Строитель",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108718861",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-08T11:50:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087193142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99622226928963,
+          56.47957105
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Детская больница №4",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108719314",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T12:09:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087206112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94848335238359,
+          56.48902245
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Томский областной онкологический диспансер",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108720611",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-10-02T01:33:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087838732",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94500408501712,
+          56.49340105
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томская больница",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108783873",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-18T10:33:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087844562",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94622063932326,
+          56.4938857
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Доктор Борменталь",
+        "opening_date": "2024-02-29",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108784456",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-18T10:33:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1088224742",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95146858412878,
+          56.491988649999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Томский противотуберкулезный диспансер",
+        "opening_date": "2026-04-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108822474",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-06T04:17:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1088486052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94581535,
+          56.4940924
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томская больница",
+        "opening_date": "2016-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108848605",
+        "status": "closed",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-18T10:33:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1088488932",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94414035,
+          56.4967989
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Областная детская больница",
+        "opening_date": "2024-02-29",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108848893",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-09-18T10:33:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1091117292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9489059,
+          56.50152525
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Родильный дом № 2",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109111729",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-04-03T16:50:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1091365202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95053128992218,
+          56.4934096
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гинекологическое отделение роддома №2",
+        "opening_date": "2016-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109136520",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-18T10:33:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1092115502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96562846638884,
+          56.47923215
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Кожно-венерологический диспансер",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109211550",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-07-27T02:37:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1092115882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96562965180183,
+          56.4788249
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Кожно-венерологический диспансер",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109211588",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-07-27T02:37:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1093735512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9846186996628,
+          56.5031521
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Поликлиника №4",
+        "opening_date": "2025-10-10",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109373551",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1102291612",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05568114301815,
+          56.5185363
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/110229161",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/110229161",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2017-01-11T03:46:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1106825032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95111403346223,
+          56.47144625
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Родильный дом им. Н. А. Семашко",
+        "opening_date": "2017-01-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/110682503",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-08-04T13:18:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1107578992",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.87760505,
+          56.49206995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Тимирязевская поликлиника",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/110757899",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-10-03T07:48:01Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1141187082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.88649377739465,
+          56.48884225
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Центральная районная больница",
+        "opening_date": "2016-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/114118708",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-09-21T05:00:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1216633252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.89774944689222,
+          56.488215
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Стационарные отделения для больных туберкулезом (для взрослых)",
+        "opening_date": "2025-10-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/121663325",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1251146212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04729644589105,
+          56.47237645
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Поликлиника ТНЦ СО РАН",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/125114621",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-04-16T11:57:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1416023742",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94928528740371,
+          56.457711
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/141602374",
+        "opening_date": "2025-10-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/141602374",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-12-10T18:19:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1607692922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99298235960771,
+          56.4997799
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Медсанчасть № 3",
+        "opening_date": "2016-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/160769292",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-08-12T14:06:21Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1696205882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96068734531758,
+          56.4546371
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Горбольница №3",
+        "opening_date": "2025-10-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/169620588",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-04-09T02:34:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2241290042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00208300754346,
+          56.50514255
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/224129004",
+        "opening_date": "2016-06-15",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/224129004",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-08-08T19:12:13Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2288295522",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05916891330368,
+          56.5229717
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Областная клиническая больница",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/228829552",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-05T01:55:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2288295552",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05643441955331,
+          56.52320285
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Перинатальный центр",
+        "opening_date": "2024-02-29",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/228829555",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-08T06:58:31Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2288295562",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.06006800191518,
+          56.525349500000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Детская инфекционная больница имени Г.Е. Сибирцева",
+        "opening_date": "2026-04-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/228829556",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-05T01:55:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2306364422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05625746412174,
+          56.5185015
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медсанчасть № 2",
+        "opening_date": "2017-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/230636442",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-04-30T09:52:01Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2639405902",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.89737776110908,
+          56.48815865
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Туберкулезная клиническая больница",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/263940590",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-11-24T13:06:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2645692742",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96063590960367,
+          56.4539456
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Городская больница № 3",
+        "opening_date": null,
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/264569274",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-05-12T06:13:10Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3417067922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95513928435236,
+          56.4830787
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Роддом имени Семашко",
+        "opening_date": "2017-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/341706792",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T03:05:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3502964662",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0310200563523,
+          56.51547334999999
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Роддом №4",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/350296466",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-09-06T08:08:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3574001182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.10136727270825,
+          56.580263450000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Светленская районная больница",
+        "opening_date": "2016-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/357400118",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-27T08:44:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592646912",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97503241567858,
+          56.4596728
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "НИИ кардиологии",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359264691",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-26T05:15:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592885382",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94612886025078,
+          56.4722285
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Детская городская больница №1",
+        "opening_date": "2016-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359288538",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-23T15:27:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595291272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95033142861072,
+          56.501249
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Родильный дом № 2",
+        "opening_date": "2016-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359529127",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-18T06:06:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3596812342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97606124213262,
+          56.467895350000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Межвузовская поликлиника",
+        "opening_date": "2016-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359681234",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-10-10T03:47:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3983179792",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98195600972599,
+          56.54283075
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Томская клиническая психиатрическая больница",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/398317979",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-07-11T14:34:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4373278781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9765391,
+          56.5301578
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Детская поликлиника № 3",
+        "opening_date": null,
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/437327878",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4751537581",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0600784,
+          56.5257317
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Детская инфекционная больница",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/475153758",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2012-08-30T07:12:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5307781172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.87754316845108,
+          56.4919592
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/530778117",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/530778117",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2017-10-07T11:22:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6979051462",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9654021841369,
+          56.49470725
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/697905146",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/697905146",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-07-02T02:25:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9949475722",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96794885806216,
+          56.4697329
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/994947572",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/994947572",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-13T10:35:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10137934042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96677122132607,
+          56.48029135
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/1013793404",
+        "opening_date": "2016-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1013793404",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-12-20T16:10:51Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10194022972",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97369173378067,
+          56.49472765
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "ЦКБ",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1019402297",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-19T07:23:01Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11177643171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9746822,
+          56.4685542
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2024-02-29",
+        "rating": 3.9,
+        "name": "Детская поликлиника № 1",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1117764317",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2025-05-03T06:54:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11629952562",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05741117562829,
+          56.5259916
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/1162995256",
+        "opening_date": "2026-04-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1162995256",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-04-16T10:03:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12380521941",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9920557,
+          56.5233408
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Центр семейной медицины",
+        "opening_date": "2016-06-15",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1238052194",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-05-28T17:04:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12445570091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9502166,
+          56.4605959
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4,
+        "name": "Городская больница №3",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1244557009",
+        "synthetic_fields": [
+          "capacity",
+          "rating"
+        ],
+        "updated_at": "2026-06-18T06:27:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465289171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9534603,
+          56.4597806
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Центр женского здоровья",
+        "opening_date": "2016-06-15",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246528917",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-08-16T06:37:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12486868281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9481194,
+          56.5046315
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Центр биомедицины",
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1248686828",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-17T17:19:13Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12487043191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9463223,
+          56.5054841
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Центр восстановительной медицины",
+        "opening_date": "2017-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1248704319",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2011-04-17T17:28:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12496099311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9387142,
+          56.5069489
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аист",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249609931",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-01-13T17:03:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12514031631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9520513,
+          56.4917276
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томский противотуберкулезный диспансер",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1251403163",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-06T04:17:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12515284721",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9597938,
+          56.4950556
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Первая частная клиника",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1251528472",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T04:03:54Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12523271631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9955513,
+          56.4986449
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Томский областной психоневрологический диспансер",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252327163",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T12:22:55Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12538454021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9693735,
+          56.4902601
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Томский областной психоневрологический диспансер",
+        "opening_date": "1999-09-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1253845402",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-10-02T02:54:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12553760081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0269283,
+          56.5249139
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медсанчасть №2",
+        "opening_date": "2016-06-15",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1255376008",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-22T13:02:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12566270031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0574411,
+          56.5171846
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медсанчасть №2",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256627003",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2011-04-23T11:53:07Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12566299821",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0482465,
+          56.5142901
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Дента-Русь, стоматология",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256629982",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-23T12:04:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578340771",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0179751,
+          56.5061092
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Подстанция скорой помощи",
+        "opening_date": "2016-06-15",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257834077",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2011-04-24T10:45:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578531011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0076281,
+          56.5031989
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Эдельвейс, стоматология",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257853101",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2015-05-14T03:00:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12579187621",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0020589,
+          56.5048067
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Городская больница скорой помощи",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257918762",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-16T16:56:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12620214861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0069033,
+          56.4762369
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Медсанчасть «Строитель»",
+        "opening_date": null,
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1262021486",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "status"
+        ],
+        "updated_at": "2026-04-25T12:43:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12621776361",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9754023,
+          56.4783078
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": "2026-01-01",
+        "rating": 4.1,
+        "name": "Центр семейной медицины (№8)",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1262177636",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2026-02-07T08:52:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12623106391",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9659378,
+          56.4682164
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "name": "Медицинский центр Линия жизни",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1262310639",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date"
+        ],
+        "updated_at": "2023-07-29T12:34:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12630157141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9708481,
+          56.4718513
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Биоритм",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263015714",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-07-13T12:02:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12632099871",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9647357,
+          56.4688001
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медицинский центр доктора Соломатова",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263209987",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-10-14T07:56:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12673724371",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.957949,
+          56.4599116
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медицинский центр",
+        "opening_date": "2016-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1267372437",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-01-30T16:59:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12692448101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9514355,
+          56.4958805
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Поликлиника №1",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1269244810",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054736741",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9757701,
+          56.5112052
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Оптимед, детская поликлиника",
+        "opening_date": "2017-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305473674",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13057574451",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9706002,
+          56.5074621
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Ортопедическая клиника №1",
+        "opening_date": "2015-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305757445",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-03T08:00:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13341491621",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9437223,
+          56.5268949
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Поликлиника №3",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1334149162",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-06-22T02:42:37Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13341492401",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9434434,
+          56.5268919
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Квадро, стоматология",
+        "opening_date": "2024-02-29",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1334149240",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-06-22T02:43:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13709056251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.007716,
+          56.4544052
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Центр семейной медицины",
+        "opening_date": "2016-06-15",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1370905625",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2011-07-23T10:16:53Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13755665281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9729482,
+          56.4749438
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Родильный дом №3",
+        "opening_date": "2016-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1375566528",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-03-09T04:13:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14667272822",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05926273956311,
+          56.4948437
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM way/1466727282",
+        "opening_date": "2025-10-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1466727282",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-12T04:45:33Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "15837635701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9488776,
+          56.501009
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Женская консультация роддом №2",
+        "opening_date": "2017-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1583763570",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-04-03T16:50:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16007841041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9665688,
+          56.4667894
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2015-12-31",
+        "rating": 4.5,
+        "name": "Областной эндокринологический центр",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1600784104",
+        "synthetic_fields": [
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2025-10-10T03:23:36Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16103564971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0384654,
+          56.523402
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM node/1610356497",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1610356497",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2012-01-29T13:41:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17451038691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.8775984,
+          56.4921556
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Медицинское учреждение OSM node/1745103869",
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1745103869",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2012-05-08T13:21:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "21065243271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9950413,
+          56.4650344
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Детский центр восстановительного лечения",
+        "opening_date": "2025-10-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/2106524327",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-21T14:11:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46847086921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.983381,
+          56.4763702
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "МСЧ «Строитель»",
+        "opening_date": "2026-04-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4684708692",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-29T04:29:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48292148201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9529936,
+          56.4588144
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Женская консультация (роддом№1)",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4829214820",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-11T09:36:50Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48663985211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0373408,
+          56.504744
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "центр семейной медицины",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4866398521",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-11-01T17:49:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51783492221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.058585,
+          56.5246092
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Онкологический диспансер",
+        "opening_date": "2026-04-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/5178349222",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-05T01:55:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51783492231",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0582965,
+          56.5250783
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Онкологическое отделение",
+        "opening_date": "2026-04-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/5178349223",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2017-10-20T15:15:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "54264861161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0376599,
+          56.5102716
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Стоматология",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/5426486116",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-02-21T12:22:02Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "65543634321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9651795,
+          56.494871
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Детская больница № 2",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/6554363432",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-18T02:59:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "78828219851",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9858732,
+          56.4816835
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гармония Здоровья",
+        "opening_date": "2024-02-29",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/7882821985",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-04T13:56:36Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "85794617741",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0012217,
+          56.5051981
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Отделение неотложной медицинской помощи лицам, состоящим в алкогольном опьянении",
+        "opening_date": "1999-09-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/8579461774",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-03-31T15:17:20Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "93853977321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9659286,
+          56.4722724
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томский фтизиопульмонологический медицинский центр",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/9385397732",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-20T06:34:01Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "111973138131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0084184,
+          56.4781343
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Детская поликлиника номер 6",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/11197313813",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-08-10T23:30:21Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "120005381231",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9822411,
+          56.4717798
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Горбольница N3 Поликлиническое отделение N3",
+        "opening_date": "2017-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/12000538123",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-01-09T08:20:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "135314709481",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.957421,
+          56.4669444
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Областная детская больница",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/13531470948",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-02-07T07:55:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "138170659861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0143765,
+          56.5041982
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "hospital",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Поликлиника N 4",
+        "opening_date": null,
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/13817065986",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-11T07:47:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "139746400091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9709456,
+          56.4796086
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "hospital",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Поликлиника N5 детской городской больницы N2",
+        "opening_date": "1999-09-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/13974640009",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T02:22:03Z"
+      }
+    }
+  ]
+}

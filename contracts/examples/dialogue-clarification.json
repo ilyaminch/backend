@@ -1,0 +1,6 @@
+{
+  "kind": "clarification",
+  "message": "Какая категория нужна?",
+  "options": [{"value": "school", "label": "Школы"}],
+  "proposed_state": {"pending_request": {"rating_gt": 4}}
+}

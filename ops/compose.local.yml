@@ -1,0 +1,74 @@
+name: mdp-backend-local
+
+services:
+  db:
+    image: postgis/postgis:16-3.5@sha256:94146ac37bc61e2322f88016056c5920729cb8c64c8542ed590af8fc2abdac07
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gis
+      POSTGRES_USER: gis_migrator
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_owner_password
+    secrets:
+      - db_owner_password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      # The entrypoint's temporary Unix-socket server is not ready for other containers.
+      test: [CMD-SHELL, pg_isready -h 127.0.0.1 -U gis_migrator -d gis]
+      interval: 2s
+      timeout: 3s
+      retries: 40
+
+  init:
+    image: mdp-backend-local:dev
+    restart: "no"
+    env_file: ../.local/owner.env
+    environment:
+      APP_ENV: local
+      PUBLIC_ORIGIN: http://localhost:5173
+      COOKIE_SECURE: "false"
+    command: [python, /ops/local_init.py]
+    secrets:
+      - db_runtime_password
+      - frontend_accounts
+    depends_on:
+      db:
+        condition: service_healthy
+
+  backend:
+    image: mdp-backend-local:dev
+    build:
+      context: ../backend
+      dockerfile: ../ops/Dockerfile.local
+      additional_contexts:
+        mlchat: ../.local/mlchat-source
+        operations: .
+    restart: unless-stopped
+    env_file: ../.local/runtime.env
+    environment:
+      APP_ENV: local
+      PUBLIC_ORIGIN: http://localhost:5173
+      COOKIE_SECURE: "false"
+      DIALOGUE_FACTORY: mlchat.integration:create_dialogue
+    ports:
+      - 127.0.0.1:8000:8000
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/ready',timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 12
+      start_period: 10s
+
+volumes:
+  pgdata:
+
+secrets:
+  db_owner_password:
+    file: ../.local/db_owner_password
+  db_runtime_password:
+    file: ../.local/db_runtime_password
+  frontend_accounts:
+    file: ../.local/frontend_accounts.json

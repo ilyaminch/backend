@@ -1,0 +1,38 @@
+{
+  "schema_version": "1",
+  "package_version": "tomsk-demo-1",
+  "prepared_at": "2026-10-22T10:17:14.953278+00:00",
+  "provenance": "Supplied tomsk-demo-1; source manifest SHA256 60f1176d183380e3954f5670cc90c74c8139bde08b8c00a03029934a3f3c0d44. OpenStreetMap contributors, ODbL 1.0, https://www.openstreetmap.org/copyright. Synthetic fields retained; ID placement and region names adapted for backend import.",
+  "files": [
+    {
+      "layer_code": "school",
+      "file": "school.geojson",
+      "sha256": "22ac097354042f7d802d25ac4ca8fd123a9f3c4f8ea2e01083f161e80a6376e1"
+    },
+    {
+      "layer_code": "hospital",
+      "file": "hospital.geojson",
+      "sha256": "1cda283848285410fee597871f171744621a29be51c137e69ba6a71849c76f57"
+    },
+    {
+      "layer_code": "pharmacy",
+      "file": "pharmacy.geojson",
+      "sha256": "cbc537f9a1e613d0009eb340432bc0272bb75794bafa1b7af8c4e90e6fffa546"
+    },
+    {
+      "layer_code": "park",
+      "file": "park.geojson",
+      "sha256": "34f4ca7e394ff893200325680a8487e3f6a5f490bb3edde7be1a3975f8bab240"
+    },
+    {
+      "layer_code": "improvement_zone",
+      "file": "improvement_zone.geojson",
+      "sha256": "c1f28772003ccda249e15be2ae8a3816a0c91f4a2d5f5dfe11ea9b015aec40f6"
+    },
+    {
+      "layer_code": "regions",
+      "file": "regions.geojson",
+      "sha256": "171f35a21be8ff7df6719526b62094ab8a46735fbf61fb4413a1461b4217db83"
+    }
+  ]
+}

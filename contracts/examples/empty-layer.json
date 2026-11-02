@@ -1,0 +1,8 @@
+{
+  "request_id": "7f8a2229-f14b-4ee7-85ab-2861fd7b7120",
+  "result": {
+    "kind": "objects", "dataset_version": "1", "category": "school", "count": 0,
+    "feature_collection": {"type": "FeatureCollection", "features": []},
+    "region_counts": null, "matched_object_count": 0, "map_action": "replace"
+  }
+}

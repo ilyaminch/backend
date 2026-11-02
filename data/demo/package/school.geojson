@@ -1,0 +1,3912 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "generated",
+      "title": "Проверочные и демонстрационные объекты Томска",
+      "url": null,
+      "snapshot_date": "2026-10-22",
+      "usage_note": "Искусственные объекты и свойства для демонстрации, не сведения о реальных учреждениях. Геометрии размещены с использованием границ OSM: © OpenStreetMap contributors, ODbL 1.0. Исходные десять объектов сохранены из проверочного набора 2026-10-10."
+    },
+    {
+      "code": "osm_tomsk_full",
+      "title": "OpenStreetMap — объекты четырёх районов Томска",
+      "url": "https://overpass-api.de/api/interpreter",
+      "snapshot_date": "2026-10-22",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Полный ответ и запрос сохранены в inputs; преобразования перечислены в report.json; искусственные свойства отмечены в synthetic_fields."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "132666233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1037994879338,
+          56.5811741
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №22",
+        "opening_date": null,
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/13266623",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "status"
+        ],
+        "updated_at": "2021-09-27T08:44:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "136522373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04035671997715,
+          56.520451
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM relation/13652237",
+        "opening_date": "1999-09-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/13652237",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-10-04T06:49:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "136522383",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04138071026325,
+          56.5141727
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №36",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/13652238",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-01-09T08:14:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "144701023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01013918263115,
+          56.47707445
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гимназия \"Пеленг\"",
+        "opening_date": "2015-12-31",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/14470102",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-14T12:28:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162003783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00686275361376,
+          56.4771344
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №39",
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16200378",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-03T11:47:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162457533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99762575417394,
+          56.47951165
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Гимназия №2",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16245753",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-10T10:46:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162457543",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99875750740759,
+          56.47963275
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №23",
+        "opening_date": null,
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16245754",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-10T10:46:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162528743",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95287323051207,
+          56.4902813
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Католическая гимназия",
+        "opening_date": "2017-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16252874",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-08-29T03:49:35Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162655303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.07830548133013,
+          56.49647335
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 46",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "relation/16265530",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-01T09:05:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "236164112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04846749325617,
+          56.51557885
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа OSM way/23616411",
+        "opening_date": "2017-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/23616411",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-05T02:32:07Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "353437602",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.06879906597841,
+          56.52025845
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Детская школа искусств №3",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/35343760",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-03-13T17:26:12Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "353437732",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.06761997984361,
+          56.52008175
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №5",
+        "opening_date": "2024-02-29",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/35343773",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-11T11:44:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "373551942",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04853032493031,
+          56.51579985
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Коррекционная школа №45",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/37355194",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458306062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99253577551798,
+          56.46304315
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 42",
+        "opening_date": "2017-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/45830606",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-25T14:08:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "473781362",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98320317202042,
+          56.51460135
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Лицей № 7",
+        "opening_date": "1981-09-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/47378136",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "474728422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98903078674806,
+          56.51772125
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гимназия № 55",
+        "opening_date": "2015-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/47472842",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-01-04T17:06:36Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "474729372",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98702385546758,
+          56.516978050000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №30",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/47472937",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "484042582",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99069415352795,
+          56.522286
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гимназия № 56",
+        "opening_date": "2016-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/48404258",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-10-16T03:38:51Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "484069322",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97871380547562,
+          56.527736950000005
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Училище № 27",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/48406932",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-02-20T18:30:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "484100962",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03776916817606,
+          56.5028399
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа #58",
+        "opening_date": "2015-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/48410096",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-05-23T09:40:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "484101452",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03838465638039,
+          56.5027871
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/48410145",
+        "opening_date": "2016-01-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/48410145",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-29T15:08:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "490123272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9804223697865,
+          56.529933299999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "детский сад № 121",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/49012327",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-01-26T05:00:09Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "490125592",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9776790780326,
+          56.5324932
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа № 11",
+        "opening_date": "2017-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/49012559",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-03-04T05:49:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "525992472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04893932974917,
+          56.5171957
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа № 38",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/52599247",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2010-12-02T08:37:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "692252362",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04843777734244,
+          56.51723335
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/69225236",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/69225236",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2012-01-13T20:19:21Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "703649732",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97575240540922,
+          56.52842285
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа-интернат № 1",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/70364973",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-17T07:21:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "712287522",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04144606691034,
+          56.51512355
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/71228752",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/71228752",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-09-28T05:02:33Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "756536382",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95205631872312,
+          56.46179805
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа № 32",
+        "opening_date": "2016-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/75653638",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-20T05:07:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "768356252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96391327746086,
+          56.49869935
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гимназия №24",
+        "opening_date": "2025-10-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/76835625",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "937406862",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03031724610592,
+          56.5175298
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/93740686",
+        "opening_date": "2017-01-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/93740686",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-05-31T08:55:39Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "937407202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.02960295245744,
+          56.51763905
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/93740720",
+        "opening_date": "1999-09-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/93740720",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-05-31T08:55:39Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "964701852",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9720947405136,
+          56.4642208
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Сибирский лицей",
+        "opening_date": "2026-04-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96470185",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "968507272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95084378836842,
+          56.500813550000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа OSM way/96850727",
+        "opening_date": "2017-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96850727",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-07-09T09:45:33Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "969237922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96840451321737,
+          56.471052900000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/96923792",
+        "opening_date": "2017-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96923792",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-10-08T09:51:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "969358412",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97925014024645,
+          56.4695745
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томь",
+        "opening_date": "2017-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/96935841",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-11T07:20:07Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "971114532",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95616667613389,
+          56.4670215
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Лицей №8",
+        "opening_date": "2026-04-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/97111453",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-10-10T03:11:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "973069822",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98768218207599,
+          56.4817264
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа номер 22",
+        "opening_date": "2016-06-15",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/97306982",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-07-14T14:18:38Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "973070092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98714234507338,
+          56.481537599999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/97307009",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/97307009",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-08-13T03:42:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1039910022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01046401456293,
+          56.50822265
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Томский физико-технический лицей",
+        "opening_date": "2017-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/103991002",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-25T16:52:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1039910152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01030379974341,
+          56.5075504
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа OSM way/103991015",
+        "opening_date": "2025-10-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/103991015",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-25T16:52:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1042553962",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99316371828331,
+          56.46295475
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа 42",
+        "opening_date": "1999-09-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/104255396",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-28T03:26:41Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1054714312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95613224605059,
+          56.4674856
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Столярная мастерская лицея №8",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/105471431",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-03-04T06:55:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1087827962",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94568008711033,
+          56.49245725
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа OSM way/108782796",
+        "opening_date": null,
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108782796",
+        "status": "unknown",
+        "synthetic_fields": [
+          "name",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-03-28T19:33:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1088647012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97337179578611,
+          56.4782023
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/108864701",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108864701",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-07-29T11:57:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1088668992",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97204893573299,
+          56.4783645
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №40",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/108866899",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-29T12:08:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1092654252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9608493985435,
+          56.4921806
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №5",
+        "opening_date": "2026-04-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109265425",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-06-07T02:11:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1092656152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96105850737612,
+          56.49270075
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №5",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109265615",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2011-06-07T02:12:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1093536552",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9635310986308,
+          56.498635449999995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/109353655",
+        "opening_date": null,
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109353655",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-19T06:26:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1093670692",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9767663921364,
+          56.5009069
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Кадетский корпус",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109367069",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-12-26T08:41:44Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1093779592",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9923946664689,
+          56.50192545
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №47",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109377959",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-06-28T11:11:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1093795752",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99439725404945,
+          56.49699205
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "ДЮСШ №6 по баскетболу",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109379575",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2015-05-23T15:01:53Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1097579232",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03241568663728,
+          56.5274183
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №19",
+        "opening_date": null,
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109757923",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-02-05T12:19:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1170711242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97585712543358,
+          56.507735
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа № 14",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/117071124",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1233360552",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.10726739106846,
+          56.3708561
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №33",
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/123336055",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-02-02T08:18:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1281501372",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.84775589643968,
+          56.517801649999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №65",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/128150137",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2015-03-13T19:49:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1284773922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98780645080575,
+          56.4631117
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Факел (Дом детства и юношества)",
+        "opening_date": "2025-10-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/128477392",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-25T14:13:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1354909592",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97931530300494,
+          56.413619600000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Санаторно-лесная школа",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/135490959",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-11-20T11:33:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1364835072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9565511366117,
+          56.480477750000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/136483507",
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/136483507",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T12:59:41Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1381778202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9567236987234,
+          56.467370700000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Спортивный зал Лицея №8",
+        "opening_date": "1999-09-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/138177820",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-12-11T06:24:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1413697852",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99183592165235,
+          56.48524775
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №15 имени Г.Е. Николаевой",
+        "opening_date": "1999-09-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/141369785",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T02:04:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1417479482",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9560367280389,
+          56.4713458
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Гимназия №6",
+        "opening_date": "1999-09-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/141747948",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-23T15:27:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1420274072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97898177083977,
+          56.46847425
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Лицей №51",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/142027407",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-01-09T17:35:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1474967062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.04111648638593,
+          56.520806750000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Гимназия №13",
+        "opening_date": "2025-10-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/147496706",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-23T20:23:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1474967082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03733745291328,
+          56.51979015
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №37",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/147496708",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2012-01-27T01:07:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1501662702",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9410646419386,
+          56.47256615
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа № 10",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/150166270",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-06-22T17:36:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2239395822",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01986092987623,
+          56.5129207
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 43",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/223939582",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-03-23T07:35:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2239395882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01849571321887,
+          56.5111766
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гимназия №29",
+        "opening_date": "2016-12-31",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/223939588",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-02T06:05:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2268435232",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03210724422047,
+          56.526607999999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/226843523",
+        "opening_date": "2017-01-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/226843523",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2013-06-22T09:39:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2306373592",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0592975054256,
+          56.51784055
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа № 53",
+        "opening_date": "1999-09-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/230637359",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-04-30T09:52:01Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2388449652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.10733567073592,
+          56.3708843
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/238844965",
+        "opening_date": "2024-02-29",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/238844965",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-01-17T14:52:39Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2389277742",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98563976998449,
+          56.452159800000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа № 49",
+        "opening_date": null,
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/238927774",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-03-09T14:54:51Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2559788012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0472016049884,
+          56.4698046
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Академический лицей им. Псахье Г.А.",
+        "opening_date": "2024-02-29",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/255978801",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-18T12:25:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2639417172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.89132622227211,
+          56.490664300000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 64",
+        "opening_date": "2025-10-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/263941717",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-05-06T15:33:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2981394452",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96916401237644,
+          56.4559976
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Лицей имени Пушкина",
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/298139445",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-04-05T12:08:41Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2989594212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.93970566750048,
+          56.519900050000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа № 28",
+        "opening_date": null,
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/298959421",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-01-14T17:55:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2989774732",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94137879619534,
+          56.49976715
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа № 16",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/298977473",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2014-12-26T17:34:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2989786022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.93870539517738,
+          56.5043378
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Филиал школы № 45",
+        "opening_date": "2016-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/298978602",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-01-13T17:03:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3186679072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00597943302225,
+          56.45701305
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа № 35",
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/318667907",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-10-06T08:40:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3503057872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0359848,
+          56.51294195
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гимназия №26",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/350305787",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-06T08:52:41Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3503066102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.02987122944907,
+          56.51763445
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №25",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/350306610",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2015-12-27T04:00:31Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592591192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97250121621173,
+          56.480141599999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №4",
+        "opening_date": "2026-04-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359259119",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-29T12:08:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592595402",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96872187753465,
+          56.47077165
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Коррекционная школа-интернат №15",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359259540",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-28T09:22:02Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592645922",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97436515264937,
+          56.46154515
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гимназия №18",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359264592",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-11-26T18:21:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592686552",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00541509310165,
+          56.4791893
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Гимназия \"Пеленг\"",
+        "opening_date": "2016-12-31",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359268655",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-23T14:08:50Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3592844472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94756242667552,
+          56.52588475
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №27",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359284447",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595216872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.01896550010215,
+          56.50262315
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа №67",
+        "opening_date": "2016-06-15",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359521687",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-05-11T08:02:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595267892",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94605555887107,
+          56.49258695
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №3",
+        "opening_date": "2016-12-31",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359526789",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-05-05T05:25:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595273082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94597241915433,
+          56.501479700000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "ДЮСШ №3 Юность",
+        "opening_date": "2024-02-29",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359527308",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-09-13T15:45:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595273092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94521960081732,
+          56.50214835
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Заозерная СОШ №16",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359527309",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-09-13T15:45:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595291872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95040254818267,
+          56.500747700000005
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 2",
+        "opening_date": null,
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359529187",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-03-05T15:53:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3595396402",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96613129011604,
+          56.49502235
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 800,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/359539640",
+        "opening_date": "1999-09-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359539640",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-18T02:59:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3596802682",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97826854285942,
+          56.458227199999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "прогимназия Кристина",
+        "opening_date": "2015-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359680268",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-04T19:14:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3596803492",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98583697925534,
+          56.46172
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа №50",
+        "opening_date": "1999-09-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359680349",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-04-05T12:46:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3596808632",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96749856977326,
+          56.4632242
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "прогимназия Кристина",
+        "opening_date": null,
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359680863",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "status"
+        ],
+        "updated_at": "2022-02-04T19:14:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3596828812",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98715650514887,
+          56.48156675
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/359682881",
+        "opening_date": "2026-04-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/359682881",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-08-13T03:42:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3965480842",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.06529529861366,
+          56.499392900000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Академический лицей",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/396548084",
+        "status": "unknown",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-04T11:26:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3983179802",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97850559190258,
+          56.54064215
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 99,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа OSM way/398317980",
+        "opening_date": "2017-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/398317980",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-24T04:28:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4766664222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96568960268519,
+          56.5162677
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 54",
+        "opening_date": "2016-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/476666422",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2017-02-23T15:07:35Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5163012222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95925261689709,
+          56.478777949999994
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа «Перспектива»",
+        "opening_date": "2025-10-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/516301222",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-06-01T08:38:50Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5335408022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0526653132378,
+          56.4947654
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа Эврика-развитие",
+        "opening_date": "1999-09-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "way/533540802",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-01-17T14:24:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5689430752",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05378370233888,
+          56.49561315
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Эврика-Развитие",
+        "opening_date": null,
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/568943075",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "status"
+        ],
+        "updated_at": "2025-07-18T15:21:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6148677021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0379004,
+          56.5028353
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Школа № 58",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/614867702",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-01-15T15:02:54Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8757474222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97377432252196,
+          56.4731815
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №41",
+        "opening_date": "2015-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/875747422",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-11-22T13:29:04Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8937646842",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.93089769096167,
+          56.520158050000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 100,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/893764684",
+        "opening_date": "2024-02-29",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/893764684",
+        "status": "closed",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-15T15:56:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10079858242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0114532153757,
+          56.473345
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа №34",
+        "opening_date": "2016-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1007985824",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-15T16:39:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10123997722",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95637021511664,
+          56.467323949999994
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/1012399772",
+        "opening_date": "2016-06-15",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1012399772",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2022-03-08T15:50:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10130744142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95155009565724,
+          56.46956545
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гуманитарный лицей",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1013074414",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-12-18T03:47:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10242064482",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97925060937499,
+          56.46953875
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гимназия Томь",
+        "opening_date": "2025-10-10",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1024206448",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-11T07:20:07Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10311248482",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94966233385608,
+          56.47500995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Школа OSM way/1031124848",
+        "opening_date": null,
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1031124848",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "name",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-02-14T10:29:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11931229112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96024482583567,
+          56.47239845
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Томский техникум информационных технологий",
+        "opening_date": null,
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1193122911",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-07-29T12:41:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13986371691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9784459,
+          56.5405938
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 50,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Школа OSM node/1398637169",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1398637169",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "name",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-08-14T14:09:35Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "22485142101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.8943285,
+          56.4882686
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 1200,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Музыкальная школа",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/2248514210",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2013-04-04T13:54:49Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40233857021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9487824,
+          56.4821647
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Детская музыкальная школа №1",
+        "opening_date": "2025-10-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4023385702",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-10-04T11:33:31Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48291835121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97247,
+          56.4572469
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Художественная школа",
+        "opening_date": "1999-09-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4829183512",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-05-16T12:49:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "58957701701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9475826,
+          56.4619513
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-06-15",
+        "rating": 3.9,
+        "name": "Лицей при ТПУ",
+        "category_code": "school",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/5895770170",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2018-09-10T08:01:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "58957701711",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9475046,
+          56.4619295
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "category_code": "school",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Военная кафедра при ТПУ",
+        "opening_date": "1999-09-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/5895770171",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-09-10T08:01:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "112599090131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.985372,
+          56.4771387
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "category_code": "school",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Центр развития и коррекции речи",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/11259909013",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-26T13:49:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "142989069011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9759512,
+          56.4507077
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "category_code": "school",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Томская Школа Олимпийского Резерва Натальи Барановой",
+        "opening_date": "2025-10-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/14298906901",
+        "status": "active",
+        "synthetic_fields": [
+          "capacity",
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-19T08:51:50Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9804893437768,
+          56.4542746
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "name": "Проверочная школа — kirovsky",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0446606855598,
+          56.4738847
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "name": "Проверочная школа — sovetsky",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96092921859653,
+          56.527712699999995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "name": "Проверочная школа — leninsky",
+        "category_code": "school",
+        "status": "closed",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05694858805093,
+          56.584245100000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2017-01-01",
+        "rating": null,
+        "name": "Проверочная школа — oktyabrsky",
+        "category_code": "school",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "name",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0528361,
+          56.4648203
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная школа на границе районов",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    }
+  ]
+}

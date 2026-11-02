@@ -1,0 +1,3747 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "generated",
+      "title": "Проверочные и демонстрационные объекты Томска",
+      "url": null,
+      "snapshot_date": "2026-10-22",
+      "usage_note": "Искусственные объекты и свойства для демонстрации, не сведения о реальных учреждениях. Геометрии размещены с использованием границ OSM: © OpenStreetMap contributors, ODbL 1.0. Исходные десять объектов сохранены из проверочного набора 2026-10-10."
+    },
+    {
+      "code": "osm_tomsk_full",
+      "title": "OpenStreetMap — объекты четырёх районов Томска",
+      "url": "https://overpass-api.de/api/interpreter",
+      "snapshot_date": "2026-10-22",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Полный ответ и запрос сохранены в inputs; преобразования перечислены в report.json; искусственные свойства отмечены в synthetic_fields."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "431531242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00314077003532,
+          56.501821
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Авиценна",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/43153124",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2019-06-15T17:01:53Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1095657952",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1050137434462,
+          56.57768025
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека \"Вита\"",
+        "opening_date": "2016-12-31",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/109565795",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-01-23T14:32:02Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1155804822",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98009910846429,
+          56.50956205
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптечный пункт",
+        "opening_date": "1999-09-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/115580482",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-06-08T06:12:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1234156572",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.104692075,
+          56.371429250000006
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптека OSM way/123415657",
+        "opening_date": "2017-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/123415657",
+        "status": "active",
+        "synthetic_fields": [
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-08-12T12:29:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1254370982",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.98006195049544,
+          56.45796215
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека N 69",
+        "opening_date": "2017-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/125437098",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-04-05T12:20:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4235721682",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94023927459449,
+          56.515288749999996
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Фиалка",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "way/423572168",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2016-07-15T13:39:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4354998171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9779123,
+          56.5254338
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Берегиня",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/435499817",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4417620491",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9488431,
+          56.4937279
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Центральная",
+        "opening_date": "2026-04-10",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/441762049",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-08-27T09:21:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4462668041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9573998,
+          56.4668888
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 3.9,
+        "name": "Живая аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/446266804",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2025-10-10T03:11:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4497361381",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9563542,
+          56.4591839
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Longa Vita",
+        "opening_date": "2016-12-31",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/449736138",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-13T04:40:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4988612791",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9876569,
+          56.4609642
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Первая социальная аптека",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/498861279",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-08-15T11:23:21Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5596387591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9494093,
+          56.481711
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/559638759",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-08-08T13:05:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6031294861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9814801,
+          56.5101598
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптечный бульвар",
+        "opening_date": "2026-04-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/603129486",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6031637971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9784057,
+          56.5154704
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": null,
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/603163797",
+        "status": "unknown",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6042054691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9734065,
+          56.5247689
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Биола",
+        "opening_date": "2016-06-15",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/604205469",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6147649301",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9905329,
+          56.5239622
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека № 75",
+        "opening_date": "1999-09-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/614764930",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:52:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6429374251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9688539,
+          56.4603759
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": "2026-04-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/642937425",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2021-09-05T18:59:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10254500591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9751804,
+          56.4544071
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Эконом",
+        "opening_date": "2025-10-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1025450059",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-03-23T20:23:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10380621701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9855778,
+          56.5149585
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": "2026-04-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1038062170",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12443369161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.94446,
+          56.4588176
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Добротека",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1244336916",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-01-09T07:04:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12443369291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9514755,
+          56.4593783
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "1999-09-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1244336929",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-07-20T05:04:21Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12443369431",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9442018,
+          56.4591693
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптека OSM node/1244336943",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1244336943",
+        "status": "active",
+        "synthetic_fields": [
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-23T15:27:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12445416311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9387843,
+          56.4623044
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Фиалка",
+        "opening_date": "2025-10-10",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1244541631",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-05-29T15:50:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465296961",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9532596,
+          56.4571723
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Себа",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246529696",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-11T09:51:51Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465707741",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9536644,
+          56.4714174
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Родник",
+        "opening_date": "1999-09-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246570774",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-05-14T11:11:03Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465758531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9539354,
+          56.4791087
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4,
+        "name": "Аптека на Крылова",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1246575853",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2023-09-23T15:44:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465758591",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9541673,
+          56.4791329
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Бирюза",
+        "opening_date": "2016-06-15",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246575859",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-07-22T01:43:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465832211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9518333,
+          56.4793755
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Родник",
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246583221",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-01-30T07:39:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12468023931",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9755099,
+          56.4811748
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека-инфо",
+        "opening_date": "2025-10-10",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246802393",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-03-23T20:23:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12468038511",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9755109,
+          56.4797381
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-12-31",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246803851",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-14T00:15:50Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12468245921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9811627,
+          56.4810816
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Мой доктор",
+        "opening_date": "2026-04-10",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246824592",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-07-27T05:46:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12468621251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9807207,
+          56.4763549
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Планета здоровья",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1246862125",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-11T05:50:51Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12471572761",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9483923,
+          56.4890358
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Витамакс",
+        "opening_date": "1999-09-01",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1247157276",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-05-06T05:05:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12481546871",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9469009,
+          56.4984674
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1248154687",
+        "status": "closed",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12496094881",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.938606,
+          56.5068303
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Добрый Аптекарь",
+        "opening_date": "2016-06-15",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249609488",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-18T06:41:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12496597291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9438041,
+          56.5107554
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Форо",
+        "opening_date": "2016-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249659729",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-21T17:54:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12497920061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9392134,
+          56.5157945
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249792006",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-21T17:54:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12499090111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9430476,
+          56.5123744
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Форо",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249909011",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-09-21T17:54:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12499546551",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9492918,
+          56.5055188
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека №1",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1249954655",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12501030011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9491345,
+          56.5034093
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Дальнеключевская",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1250103001",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12501422001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9497271,
+          56.4993189
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Движение",
+        "opening_date": "1999-09-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1250142200",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2022-04-03T16:50:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12501455731",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9487363,
+          56.4990142
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1250145573",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-12-12T15:46:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12507358861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.950726,
+          56.4928973
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Омела",
+        "opening_date": "2017-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1250735886",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-05-28T12:06:14Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12510355061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9716529,
+          56.4827567
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "120/80",
+        "opening_date": "2026-04-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1251035506",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-23T20:23:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12521143161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9687806,
+          56.498455
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Фармакопейка",
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252114316",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-19T06:38:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12521146241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.97014,
+          56.4989313
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252114624",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-08-08T06:22:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12521149551",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9720536,
+          56.4988158
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Мой доктор",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252114955",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12521158071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9720866,
+          56.499463
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2016-06-15",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252115807",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12522816991",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9856486,
+          56.5011912
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Элит Оптика",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252281699",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12523176721",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9910935,
+          56.5010018
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптека №6",
+        "opening_date": null,
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1252317672",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12538989841",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1010077,
+          56.5803969
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1253898984",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-21T11:23:39Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12539162991",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.1026706,
+          56.5789461
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Фиалка",
+        "opening_date": "2016-12-31",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1253916299",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-21T11:32:18Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12539315321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.104516,
+          56.5783818
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека №99",
+        "opening_date": "2016-12-31",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1253931532",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-21T11:55:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12551635441",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0345073,
+          56.5177165
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Здоровье",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1255163544",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-22T08:07:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12552137211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0289024,
+          56.5157817
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека №77",
+        "opening_date": "1999-09-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1255213721",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-22T09:25:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12552309171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.027689,
+          56.5216404
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": "2026-04-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1255230917",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-04-30T08:32:48Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12553760071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0267781,
+          56.5249702
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптека №47",
+        "opening_date": "2017-01-01",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1255376007",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-22T13:02:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12566267291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0574411,
+          56.5173029
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека №58",
+        "opening_date": "2016-12-31",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256626729",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-23T11:52:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12567673801",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0368888,
+          56.5171738
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256767380",
+        "status": "closed",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-23T14:57:20Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12567832921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0337968,
+          56.5164618
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256783292",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2024-09-06T08:08:46Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12567862891",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0319782,
+          56.5153786
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1256786289",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2012-12-26T10:19:27Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12577104071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0464299,
+          56.5138284
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": "2025-10-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257710407",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-11-15T05:39:13Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12577199501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.038317,
+          56.511618
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Родник",
+        "opening_date": "2025-10-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257719950",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-24T08:38:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12577274971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0339343,
+          56.5105465
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257727497",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-24T08:43:07Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12577300011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0294281,
+          56.5091287
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Александрия",
+        "opening_date": "2015-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257730001",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-04-24T08:47:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12577339141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0267954,
+          56.5097266
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257733914",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-02-08T06:23:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578340431",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0177498,
+          56.5060323
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека №9",
+        "opening_date": "2024-02-29",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257834043",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578353261",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0166608,
+          56.5056208
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2016-06-15",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257835326",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578368621",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.016752,
+          56.5056534
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257836862",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2021-06-21T02:14:53Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578471481",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0126429,
+          56.5097089
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Добродея",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257847148",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12578520971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.00789,
+          56.5032633
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Сано",
+        "opening_date": "2025-10-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1257852097",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12592506181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0122781,
+          56.5033829
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Движение",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1259250618",
+        "status": "closed",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12592613191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0181916,
+          56.5053271
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Иркутская аптека",
+        "opening_date": "1999-09-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1259261319",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-23T16:01:28Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12619936251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.99002,
+          56.4764136
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1261993625",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-03-29T04:14:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12619986311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9915979,
+          56.4769271
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1261998631",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-09-04T13:57:34Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12620220421",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0078972,
+          56.4762164
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Первая социальная аптека",
+        "opening_date": null,
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1262022042",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-09T15:06:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12620224001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0078873,
+          56.4763621
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "70 плюс",
+        "opening_date": "2016-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1262022400",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-09T15:06:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12620234061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.007891,
+          56.4762779
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Мелодия здоровья",
+        "opening_date": "2015-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1262023406",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-09T15:06:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12620240821",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0106222,
+          56.476224
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1262024082",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-09T15:12:37Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12630534021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9702977,
+          56.4759615
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека",
+        "opening_date": "2017-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263053402",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-11T05:27:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12630546331",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9666682,
+          56.4757302
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "1999-09-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263054633",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2021-09-21T05:00:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12631403941",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9613754,
+          56.4759385
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-12-31",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263140394",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-08-04T12:52:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12632319691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9636092,
+          56.4667422
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2015-12-31",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263231969",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2025-10-10T03:23:36Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12637185061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.944464,
+          56.4740283
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Санта-Мария",
+        "opening_date": "2024-02-29",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1263718506",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-09-26T18:19:32Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12892195971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9675141,
+          56.5213805
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Россиянка",
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1289219597",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-05-17T17:04:55Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12932019051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.8777575,
+          56.4919085
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека OSM node/1293201905",
+        "opening_date": "2016-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1293201905",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2012-05-08T13:21:20Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13037993761",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9925285,
+          56.5177668
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": "2026-04-10",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1303799376",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-05-28T16:22:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13038067891",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9885589,
+          56.5201135
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Форо",
+        "opening_date": "2016-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1303806789",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:52:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13038439151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9798392,
+          56.5252062
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Мира 39",
+        "opening_date": "2016-06-15",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1303843915",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13053927901",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9757755,
+          56.5136293
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптека №8",
+        "opening_date": "1999-09-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305392790",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13053929861",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9751585,
+          56.512984
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Мира 15",
+        "opening_date": null,
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305392986",
+        "status": "active",
+        "synthetic_fields": [
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054694911",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9788601,
+          56.5098317
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Гримвис-Фарм",
+        "opening_date": null,
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305469491",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054717841",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9786606,
+          56.5102348
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2016-06-15",
+        "rating": 1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305471784",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054736751",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9755341,
+          56.5112258
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Движение",
+        "opening_date": "2017-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305473675",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:40:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054761931",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9716103,
+          56.5107384
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Виола",
+        "opening_date": "2016-01-01",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305476193",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2020-10-28T06:12:53Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13054762431",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9713008,
+          56.5086405
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Олимп",
+        "opening_date": "2025-10-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1305476243",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-15T10:25:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13709065811",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0077911,
+          56.4546097
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Родник",
+        "opening_date": "2017-01-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1370906581",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2011-07-23T10:17:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13709083041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0063843,
+          56.4553434
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Вита",
+        "opening_date": "2025-10-10",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1370908304",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-10-06T08:33:24Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13722028051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9857809,
+          56.4506551
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Сибирская аптека",
+        "opening_date": "2024-02-29",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1372202805",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2021-12-09T07:40:31Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13903774751",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0428285,
+          56.4728958
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека №7",
+        "opening_date": "2015-12-31",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1390377475",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2014-03-29T10:01:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13903776971",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0440972,
+          56.4719417
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Первая социальная аптека",
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1390377697",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-05-17T13:50:29Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13903864281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0482359,
+          56.4730617
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Живая аптека",
+        "opening_date": "2024-02-29",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1390386428",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-06T10:56:57Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14271519611",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.969763,
+          56.4660411
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": "2024-02-29",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1427151961",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-08-19T13:55:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14271519781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.970513,
+          56.4660328
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Планета здоровья",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1427151978",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-11-26T18:21:43Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14319037271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.987894,
+          56.4619155
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Лека",
+        "opening_date": "2016-06-15",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1431903727",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-10T13:47:38Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14323847351",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9828848,
+          56.4758372
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Мелодия здоровья",
+        "opening_date": "1999-09-01",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1432384735",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-04-11T05:55:15Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14327909511",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9488271,
+          56.4820909
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека 70 плюс",
+        "opening_date": "2016-06-15",
+        "rating": 4.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1432790951",
+        "status": "unknown",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-08-08T13:05:42Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "15634242852",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96065231369371,
+          56.456554049999994
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Планета здоровья",
+        "opening_date": "2016-01-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "way/1563424285",
+        "status": "unknown",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-09-29T07:29:59Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17412862761",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.8800372,
+          56.4882527
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека OSM node/1741286276",
+        "opening_date": "2016-01-01",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/1741286276",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2018-09-21T05:00:17Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17642960601",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9754185,
+          56.4771789
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4.1,
+        "name": "Я+ аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1764296060",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2026-02-07T08:46:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25124170571",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0210069,
+          56.4538037
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Аптечный дом",
+        "opening_date": "1999-09-01",
+        "rating": 3.9,
+        "source": "osm_tomsk_full",
+        "source_id": "node/2512417057",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-09-27T05:19:39Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40579919831",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9831577,
+          56.453911
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "apteka.ru",
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4057991983",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2023-09-28T16:58:58Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "43770776911",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.975348,
+          56.4632285
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Лековит",
+        "opening_date": "2015-12-31",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4377077691",
+        "status": "active",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2025-02-10T12:17:30Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48280449821",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9678332,
+          56.4600522
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": null,
+        "length_m": null,
+        "name": "Мой Доктор",
+        "opening_date": "2024-02-29",
+        "rating": 5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4828044982",
+        "status": "closed",
+        "synthetic_fields": [
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-01-11T15:56:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48280449831",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9678343,
+          56.4599366
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Фармакопейка",
+        "opening_date": "2025-10-10",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4828044983",
+        "status": "closed",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2024-11-11T07:54:54Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48283554601",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9725764,
+          56.4547358
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека Эконом",
+        "opening_date": "2025-10-10",
+        "rating": 2.5,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4828355460",
+        "status": "closed",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-03-08T06:45:37Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48284096991",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9766159,
+          56.4533699
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": true,
+        "length_m": null,
+        "name": "Аптека Южная",
+        "opening_date": "1999-09-01",
+        "rating": 4.1,
+        "source": "osm_tomsk_full",
+        "source_id": "node/4828409699",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2023-10-07T02:15:56Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50042836101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9729172,
+          56.4547351
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "category_code": "pharmacy",
+        "is_accessible": false,
+        "length_m": null,
+        "name": "Аптека Низких Цен",
+        "opening_date": "2016-12-31",
+        "rating": 4,
+        "source": "osm_tomsk_full",
+        "source_id": "node/5004283610",
+        "status": "active",
+        "synthetic_fields": [
+          "is_accessible",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2022-03-08T06:45:37Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "94597306291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.949754,
+          56.4782263
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Губернская аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/9459730629",
+        "synthetic_fields": [],
+        "updated_at": "2025-11-07T03:05:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "113386139381",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9764059,
+          56.4799727
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4.5,
+        "name": "Мой доктор",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/11338613938",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2026-02-07T09:06:35Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95811298652433,
+          56.479999735012605
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 499.9 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9581146094462,
+          56.47999973490658
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 500.0 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95811623236808,
+          56.47999973480052
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 500.1 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    }
+  ]
+}

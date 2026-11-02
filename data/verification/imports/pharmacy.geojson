@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "generated",
+      "title": "Проверочные объекты Sprint 2",
+      "url": null,
+      "snapshot_date": "2026-10-10",
+      "usage_note": "Искусственные объекты для граничных случаев; не сведения о реальных учреждениях. Примеры на границе производны от OSM: © OpenStreetMap contributors, ODbL 1.0."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "4462668041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9573998,
+          56.4668888
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 3.9,
+        "name": "Живая аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/446266804",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2025-10-10T03:11:06Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12465758531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9539354,
+          56.4791087
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4,
+        "name": "Аптека на Крылова",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1246575853",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2023-09-23T15:44:19Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17642960601",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9754185,
+          56.4771789
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4.1,
+        "name": "Я+ аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1764296060",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2026-02-07T08:46:45Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "94597306291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.949754,
+          56.4782263
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Губернская аптека",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/9459730629",
+        "synthetic_fields": [],
+        "updated_at": "2025-11-07T03:05:05Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "113386139381",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9764059,
+          56.4799727
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4.5,
+        "name": "Мой доктор",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/11338613938",
+        "synthetic_fields": [
+          "rating"
+        ],
+        "updated_at": "2026-02-07T09:06:35Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95811298652433,
+          56.479999735012605
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 499.9 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9581146094462,
+          56.47999973490658
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 500.0 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95811623236808,
+          56.47999973480052
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная аптека — радиус 500.1 м",
+        "category_code": "pharmacy",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    }
+  ]
+}

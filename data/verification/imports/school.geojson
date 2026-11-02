@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "generated",
+      "title": "Проверочные объекты Sprint 2",
+      "url": null,
+      "snapshot_date": "2026-10-10",
+      "usage_note": "Искусственные объекты для граничных случаев; не сведения о реальных учреждениях. Примеры на границе производны от OSM: © OpenStreetMap contributors, ODbL 1.0."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "58957701701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9475826,
+          56.4619513
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-06-15",
+        "rating": 3.9,
+        "name": "Лицей при ТПУ",
+        "category_code": "school",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/5895770170",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2018-09-10T08:01:08Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9804893437768,
+          56.4542746
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 199,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2015-12-31",
+        "rating": 3.9,
+        "name": "Проверочная школа — kirovsky",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0446606855598,
+          56.4738847
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 200,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": "2016-01-01",
+        "rating": 4,
+        "name": "Проверочная школа — sovetsky",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "is_accessible",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.96092921859653,
+          56.527712699999995
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 201,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-12-31",
+        "rating": 4.1,
+        "name": "Проверочная школа — leninsky",
+        "category_code": "school",
+        "status": "closed",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "name",
+          "opening_date",
+          "rating",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.05694858805093,
+          56.584245100000004
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2017-01-01",
+        "rating": null,
+        "name": "Проверочная школа — oktyabrsky",
+        "category_code": "school",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "capacity",
+          "geom",
+          "name",
+          "opening_date",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.0528361,
+          56.4648203
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная школа на границе районов",
+        "category_code": "school",
+        "status": "active",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    }
+  ]
+}

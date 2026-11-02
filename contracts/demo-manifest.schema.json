@@ -1,0 +1,76 @@
+{
+  "$defs": {
+    "DemoFile": {
+      "additionalProperties": false,
+      "properties": {
+        "layer_code": {
+          "enum": [
+            "school",
+            "hospital",
+            "pharmacy",
+            "park",
+            "improvement_zone",
+            "regions"
+          ],
+          "title": "Layer Code",
+          "type": "string"
+        },
+        "file": {
+          "title": "File",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "layer_code",
+        "file",
+        "sha256"
+      ],
+      "title": "DemoFile",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "package_version": {
+      "title": "Package Version",
+      "type": "string"
+    },
+    "prepared_at": {
+      "format": "date-time",
+      "title": "Prepared At",
+      "type": "string"
+    },
+    "provenance": {
+      "title": "Provenance",
+      "type": "string"
+    },
+    "files": {
+      "items": {
+        "$ref": "#/$defs/DemoFile"
+      },
+      "maxItems": 6,
+      "minItems": 6,
+      "title": "Files",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "package_version",
+    "prepared_at",
+    "provenance",
+    "files"
+  ],
+  "title": "DemoManifest",
+  "type": "object"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "candidate",
+  "filter": {
+    "schema_version": "1",
+    "operation": "search_objects",
+    "category": "school",
+    "conditions": [{"field": "rating", "op": "gt", "value": 4}]
+  },
+  "proposed_state": {}
+}

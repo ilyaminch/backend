@@ -1,0 +1,11 @@
+--- a/.gitlab-ci.yml
++++ b/.gitlab-ci.yml
+@@ -42,7 +42,7 @@
+     POSTGRES_USER: gis_test
+     POSTGRES_PASSWORD: disposable_ci_only
+     TEST_DATABASE_URL: postgresql+asyncpg://gis_test:disposable_ci_only@db:5432/gis_test
+-    MIGRATION_DATABASE_URL: postgresql+asyncpg://gis_test:disposable_ci_only@db:5432/gis_test
++    MIGRATION_DATABASE_URL: postgresql+asyncpg://gis_test:disposable_ci_only@db:1/gis_test
+   script:
+     - uv run --frozen python ../ops/wait_for_db.py
+     - uv run --frozen alembic upgrade head

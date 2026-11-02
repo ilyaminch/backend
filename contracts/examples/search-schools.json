@@ -1,0 +1,9 @@
+{
+  "schema_version": "1",
+  "operation": "search_objects",
+  "category": "school",
+  "conditions": [
+    {"field": "rating", "op": "gt", "value": 4},
+    {"field": "capacity", "op": "gte", "value": 100}
+  ]
+}

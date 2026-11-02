@@ -1,0 +1,6 @@
+{
+  "schema_version": "1",
+  "operation": "count_by_region",
+  "category": "park",
+  "conditions": []
+}

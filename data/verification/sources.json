@@ -1,0 +1,44 @@
+[
+  {
+    "code": "osm_tomsk",
+    "title": "OpenStreetMap — фрагмент Томска",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+    "snapshot_date": "2026-10-10",
+    "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+  },
+  {
+    "code": "osm_kirovsky",
+    "title": "OpenStreetMap — Кировский район",
+    "url": "https://api.openstreetmap.org/api/0.6/relation/3224247/full",
+    "snapshot_date": "2026-10-10",
+    "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Исходный XML сохранён в data/raw."
+  },
+  {
+    "code": "osm_sovetsky",
+    "title": "OpenStreetMap — Советский район",
+    "url": "https://api.openstreetmap.org/api/0.6/relation/2688922/full",
+    "snapshot_date": "2026-10-10",
+    "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Исходный XML сохранён в data/raw."
+  },
+  {
+    "code": "osm_leninsky",
+    "title": "OpenStreetMap — Ленинский район",
+    "url": "https://api.openstreetmap.org/api/0.6/relation/269721/full",
+    "snapshot_date": "2026-10-10",
+    "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Исходный XML сохранён в data/raw."
+  },
+  {
+    "code": "osm_oktyabrsky",
+    "title": "OpenStreetMap — Октябрьский район",
+    "url": "https://api.openstreetmap.org/api/0.6/relation/2688921/full",
+    "snapshot_date": "2026-10-10",
+    "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Исходный XML сохранён в data/raw."
+  },
+  {
+    "code": "generated",
+    "title": "Проверочные объекты Sprint 2",
+    "url": null,
+    "snapshot_date": "2026-10-10",
+    "usage_note": "Искусственные объекты для граничных случаев; не сведения о реальных учреждениях. Примеры на границе производны от OSM: © OpenStreetMap contributors, ODbL 1.0."
+  }
+]

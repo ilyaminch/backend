@@ -1,0 +1,140 @@
+{
+  "$defs": {
+    "Candidate": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "candidate",
+          "title": "Kind",
+          "type": "string"
+        },
+        "filter": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Filter",
+          "type": "object"
+        },
+        "proposed_state": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Proposed State",
+          "type": "object"
+        }
+      },
+      "required": [
+        "kind",
+        "filter",
+        "proposed_state"
+      ],
+      "title": "Candidate",
+      "type": "object"
+    },
+    "Clarification": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "clarification",
+          "title": "Kind",
+          "type": "string"
+        },
+        "message": {
+          "minLength": 1,
+          "title": "Message",
+          "type": "string"
+        },
+        "options": {
+          "items": {
+            "$ref": "#/$defs/Option"
+          },
+          "title": "Options",
+          "type": "array"
+        },
+        "proposed_state": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Proposed State",
+          "type": "object"
+        }
+      },
+      "required": [
+        "kind",
+        "message",
+        "options",
+        "proposed_state"
+      ],
+      "title": "Clarification",
+      "type": "object"
+    },
+    "JsonValue": {},
+    "Option": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "label"
+      ],
+      "title": "Option",
+      "type": "object"
+    },
+    "Unsupported": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "unsupported",
+          "title": "Kind",
+          "type": "string"
+        },
+        "message": {
+          "minLength": 1,
+          "title": "Message",
+          "type": "string"
+        },
+        "proposed_state": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Proposed State",
+          "type": "object"
+        }
+      },
+      "required": [
+        "kind",
+        "message",
+        "proposed_state"
+      ],
+      "title": "Unsupported",
+      "type": "object"
+    }
+  },
+  "discriminator": {
+    "mapping": {
+      "candidate": "#/$defs/Candidate",
+      "clarification": "#/$defs/Clarification",
+      "unsupported": "#/$defs/Unsupported"
+    },
+    "propertyName": "kind"
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/Candidate"
+    },
+    {
+      "$ref": "#/$defs/Clarification"
+    },
+    {
+      "$ref": "#/$defs/Unsupported"
+    }
+  ]
+}

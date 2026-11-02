@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    },
+    {
+      "code": "generated",
+      "title": "Проверочные объекты Sprint 2",
+      "url": null,
+      "snapshot_date": "2026-10-10",
+      "usage_note": "Искусственные объекты для граничных случаев; не сведения о реальных учреждениях. Примеры на границе производны от OSM: © OpenStreetMap contributors, ODbL 1.0."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7979414192",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.9585895,
+            56.4639282
+          ],
+          [
+            84.9602496,
+            56.4639109
+          ],
+          [
+            84.9615912,
+            56.463901
+          ],
+          [
+            84.9622052,
+            56.4638966
+          ],
+          [
+            84.9623607,
+            56.4638779
+          ],
+          [
+            84.9625863,
+            56.4638718
+          ],
+          [
+            84.9627969,
+            56.4638682
+          ]
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": 259.63,
+        "opening_date": null,
+        "rating": null,
+        "name": "Велодорожка OSM way/797941419",
+        "category_code": "improvement_zone",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "way/797941419",
+        "synthetic_fields": [
+          "name"
+        ],
+        "updated_at": "2024-09-10T11:04:13Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9670984072",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.9578252,
+            56.4639799
+          ],
+          [
+            84.957898,
+            56.4639346
+          ],
+          [
+            84.9585895,
+            56.4639282
+          ]
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": 49.38,
+        "opening_date": null,
+        "rating": null,
+        "name": "Велодорожка OSM way/967098407",
+        "category_code": "improvement_zone",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "way/967098407",
+        "synthetic_fields": [
+          "name"
+        ],
+        "updated_at": "2024-09-10T11:04:23Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9000000000000009",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.04220131512982,
+            56.46514608601491
+          ],
+          [
+            85.04219658487018,
+            56.464746113985086
+          ]
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": null,
+        "length_m": 44.54,
+        "opening_date": null,
+        "rating": null,
+        "name": "Проверочная линия через два района",
+        "category_code": "improvement_zone",
+        "status": "unknown",
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": [
+          "geom",
+          "name",
+          "status"
+        ],
+        "updated_at": "2026-10-10T13:32:22Z"
+      }
+    }
+  ]
+}

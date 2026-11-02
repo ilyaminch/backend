@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "osm_tomsk",
+      "title": "OpenStreetMap — фрагмент Томска",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=84.94,56.46,84.98,56.48",
+      "snapshot_date": "2026-10-10",
+      "usage_note": "© OpenStreetMap contributors; ODbL 1.0. Геометрия, названия и ID из локального снимка; искусственные свойства отмечены в synthetic_fields."
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "11177643171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9746822,
+          56.4685542
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 499,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2024-02-29",
+        "rating": 3.9,
+        "name": "Детская поликлиника № 1",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1117764317",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2025-05-03T06:54:11Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12445570091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9502166,
+          56.4605959
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 500,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": null,
+        "rating": 4,
+        "name": "Городская больница №3",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1244557009",
+        "synthetic_fields": [
+          "capacity",
+          "rating"
+        ],
+        "updated_at": "2026-06-18T06:27:52Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12621776361",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9754023,
+          56.4783078
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 501,
+        "is_accessible": false,
+        "length_m": null,
+        "opening_date": "2026-01-01",
+        "rating": 4.1,
+        "name": "Центр семейной медицины (№8)",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1262177636",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2026-02-07T08:52:40Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12623106391",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9659378,
+          56.4682164
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": 0,
+        "is_accessible": null,
+        "length_m": null,
+        "opening_date": "2016-01-01",
+        "rating": null,
+        "name": "Медицинский центр Линия жизни",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1262310639",
+        "synthetic_fields": [
+          "capacity",
+          "opening_date"
+        ],
+        "updated_at": "2023-07-29T12:34:16Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16007841041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.9665688,
+          56.4667894
+        ]
+      },
+      "properties": {
+        "area_m2": null,
+        "capacity": null,
+        "is_accessible": true,
+        "length_m": null,
+        "opening_date": "2015-12-31",
+        "rating": 4.5,
+        "name": "Областной эндокринологический центр",
+        "category_code": "hospital",
+        "status": "unknown",
+        "source": "osm_tomsk",
+        "source_id": "node/1600784104",
+        "synthetic_fields": [
+          "opening_date",
+          "rating"
+        ],
+        "updated_at": "2025-10-10T03:23:36Z"
+      }
+    }
+  ]
+}

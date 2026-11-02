@@ -1,0 +1,6 @@
+diff --git a/backend/app/ci_probe.py b/backend/app/ci_probe.py
+new file mode 100644
+--- /dev/null
++++ b/backend/app/ci_probe.py
+@@ -0,0 +1 @@
++import os

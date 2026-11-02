@@ -1,0 +1,113 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+    - if: '$CI_COMMIT_TAG'
+
+stages: [quality, test, build, report]
+
+default:
+  image: python:3.12.12-slim-bookworm
+  before_script:
+    - pip install uv==0.9.5
+    - cd backend
+    - uv lock --check
+    - uv sync --frozen
+  cache:
+    key:
+      files: [backend/uv.lock]
+    paths: [.uv-cache/]
+
+variables:
+  UV_CACHE_DIR: "$CI_PROJECT_DIR/.uv-cache"
+  UV_LINK_MODE: copy
+  UV_PYTHON_DOWNLOADS: never
+
+quality:
+  stage: quality
+  script:
+    - uv run --frozen ruff check . ../ops --config pyproject.toml
+    - uv run --frozen ruff format --check . ../ops --config pyproject.toml
+    - uv run --frozen mypy app
+
+ci-checks:
+  stage: test
+  services:
+    - name: postgis/postgis:16-3.5
+      alias: db
+  variables:
+    POSTGRES_DB: gis_test
+    POSTGRES_USER: gis_test
+    POSTGRES_PASSWORD: disposable_ci_only
+    TEST_DATABASE_URL: postgresql+asyncpg://gis_test:disposable_ci_only@db:5432/gis_test
+    MIGRATION_DATABASE_URL: postgresql+asyncpg://gis_test:disposable_ci_only@db:5432/gis_test
+  script:
+    - uv run --frozen python ../ops/wait_for_db.py
+    - uv run --frozen alembic upgrade head
+    - uv run --frozen alembic upgrade head
+    - uv run --frozen pytest tests --junitxml=reports/ci.xml --alluredir=reports/allure/ci
+  artifacts:
+    when: always
+    expire_in: 7 days
+    paths: [backend/reports/ci.xml, backend/reports/allure/ci/]
+    reports:
+      junit: backend/reports/ci.xml
+
+build-package:
+  stage: build
+  script:
+    - uv build --no-sources
+    - uv export --frozen --no-dev --no-emit-project -o /tmp/gis-runtime.txt
+    - uv venv /tmp/gis-package-check
+    - uv pip install --python /tmp/gis-package-check/bin/python --constraint /tmp/gis-runtime.txt dist/*.whl
+    - cd /tmp
+    - /tmp/gis-package-check/bin/python "$CI_PROJECT_DIR/ops/smoke.py"
+  artifacts:
+    paths: [backend/dist/]
+    expire_in: 7 days
+
+# Reporting must run even if a test fails. It does not change failed job statuses.
+allure-report:
+  stage: report
+  image: eclipse-temurin:17-jre-jammy
+  when: always
+  dependencies: [ci-checks]
+  cache: []
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends curl ca-certificates
+    - curl --fail --location --retry 3 --connect-timeout 15 --max-time 180 https://github.com/allure-framework/allure2/releases/download/2.39.0/allure-2.39.0.tgz -o /tmp/allure.tgz
+    - tar -xzf /tmp/allure.tgz -C /tmp
+  script:
+    # If setup failed before pytest started, there is no test report to generate.
+    - |
+      if [ -d backend/reports/allure/ci ]; then
+        /tmp/allure-2.39.0/bin/allure generate backend/reports/allure/ci --single-file --clean -o backend/reports/allure-report
+      else
+        echo 'Pytest did not start; no test results to report.'
+      fi
+  artifacts:
+    when: always
+    expire_in: 7 days
+    expose_as: 'Allure report'
+    paths: [backend/reports/allure-report/]
+
+# Enable after the runner administrator confirms support for rootless BuildKit.
+# Does not use privileged Docker-in-Docker or the host Docker socket.
+build-image:
+  stage: build
+  image:
+    name: moby/buildkit:v0.23.2-rootless
+    entrypoint: [""]
+  before_script: []
+  cache: []
+  rules:
+    - if: '$ROOTLESS_BUILDKIT_ENABLED == "true"'
+  variables:
+    BUILDKITD_FLAGS: --oci-worker-no-process-sandbox
+  script:
+    - buildctl-daemonless.sh build --frontend dockerfile.v0 --local context=backend --local dockerfile=backend --output type=oci,dest=backend-image.tar
+  artifacts:
+    paths: [backend-image.tar]
+    expire_in: 3 days

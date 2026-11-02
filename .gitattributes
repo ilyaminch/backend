@@ -1,0 +1,6 @@
+# Preserve delivered source bytes: MLChat acceptance references hash these exact files.
+/data/verification/objects.geojson -text
+/data/verification/regions.geojson -text
+/data/verification/sources.json -text
+# Demo manifest SHA256 covers exact bytes on Windows and Linux.
+/data/demo/package/*.geojson -text

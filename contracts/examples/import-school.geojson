@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "1",
+  "data_sources": [
+    {
+      "code": "generated",
+      "title": "Искусственный пример формата",
+      "url": null,
+      "usage_note": "Только пример контракта. Не реальные геоданные и не демонстрационный набор.",
+      "snapshot_date": "2026-10-21"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "101",
+      "geometry": {"type": "Point", "coordinates": [84.97, 56.48]},
+      "properties": {
+        "name": "Искусственный пример школы",
+        "category_code": "school",
+        "status": "active",
+        "rating": 4.5,
+        "capacity": 0,
+        "opening_date": null,
+        "is_accessible": false,
+        "source": "generated",
+        "source_id": null,
+        "synthetic_fields": ["name", "status", "rating", "capacity", "is_accessible"],
+        "updated_at": "2026-10-21T00:00:00Z"
+      }
+    }
+  ]
+}

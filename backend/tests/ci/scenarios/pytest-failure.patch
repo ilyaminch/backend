@@ -1,0 +1,7 @@
+diff --git a/backend/tests/test_ci_probe.py b/backend/tests/test_ci_probe.py
+new file mode 100644
+--- /dev/null
++++ b/backend/tests/test_ci_probe.py
+@@ -0,0 +1,2 @@
++def test_ci_failure_probe() -> None:
++    raise AssertionError("Intentional CI acceptance check")

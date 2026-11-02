@@ -1,0 +1,7 @@
+# Optional trusted demo package; combine with compose.local.yml and compose.ollama.yml.
+services:
+  backend:
+    environment:
+      DEMO_PACKAGE_DIR: /data/demo
+    volumes:
+      - ../data/demo/package:/data/demo:ro

@@ -1,0 +1,9 @@
+# Optional native Windows Ollama, used together with compose.local.yml.
+services:
+  backend:
+    environment:
+      LLM_BASE_URL: http://host.docker.internal:11434
+      DIALOGUE_FACTORY: mlchat.integration:create_qwen35_9b_dialogue
+      LLM_MODEL: mlchat-qwen35-9b
+      LLM_RESPONSE_MODE: json_schema
+      LLM_TEMPERATURE: "0"

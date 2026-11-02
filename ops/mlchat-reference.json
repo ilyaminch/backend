@@ -1,0 +1,20 @@
+{
+  "package": "gis-assistant-mlchat",
+  "version": "0.1.3",
+  "repository": "https://codelab.tpu.ru/aisupermap/mlchat.git",
+  "revision": "45455bf09603f2162e62f658b60ffdff678d9bfe",
+  "normalization": "UTF-8 source bytes; CRLF normalized to LF",
+  "files": {
+    "README.md": "fdd47af3689f2b53d53f2953308ec478509c9690c6771870b4d17c7a7159678e",
+    "mlchat/__init__.py": "ba05f6aa39669fc61d2367db06062bc575a39c69e80ae5460f851cea36a6eb29",
+    "mlchat/backend-reference.json": "e20cc0c58575848829cdc7755ef1f64099da4f5d8ba2b4f67ac497213f2cebd0",
+    "mlchat/choices.py": "487ee9b80a99ef32c1ec67acd2ba94caa1860e8f32819bddbe7210695cc43623",
+    "mlchat/generation.py": "cdc6b65b4d0aaeb05c190e767284cb050af4584e6a656218584743b107586169",
+    "mlchat/guards.py": "c5ea9da6a4597e0d7f853d1cb59c9a45aeeea8c035d5d428f79eebe5e3af8fbc",
+    "mlchat/integration.py": "771ab73db0cf3d9653a1e9f14eadeb76985f13c405fd4213df6969e96baa85cc",
+    "mlchat/models.py": "16d87c32422ac332f6b75611a769dfe191c5d0f34e2477b86db9b390e57b1526",
+    "mlchat/prompts.py": "c13ed56562c986ec822ebf97bbafbfbb4d7e72a972ff2be9f63772615b411005",
+    "mlchat/validation.py": "8134449591e4252ec768ffb30965bb98e87534893c1a6154f7acbb9f2b184c68",
+    "pyproject.toml": "7587872ff46f2104d5407cb8420bc477dd89b15607ea60e75f6cfb85cd59f081"
+  }
+}

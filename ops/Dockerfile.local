@@ -1,0 +1,30 @@
+# Local integration image. The ordinary backend Dockerfile/CI stays independent.
+FROM ghcr.io/astral-sh/uv:0.9.5@sha256:f459f6f73a8c4ef5d69f4e6fbbdb8af751d6fa40ec34b39a1ab469acd6e289b7 AS uv
+FROM python:3.12.12-slim-bookworm@sha256:593bd06efe90efa80dc4eee3948be7c0fde4134606dd40d8dd8dbcade98e669c AS builder
+COPY --from=uv /uv /usr/local/bin/uv
+ENV UV_COMPILE_BYTECODE=1 UV_LINK_MODE=copy
+WORKDIR /app
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project
+COPY app ./app
+RUN uv sync --frozen --no-dev --no-editable
+# Named local context contains only hash-verified MLChat package/build sources.
+COPY --from=mlchat / /mlchat-source/
+RUN uv build /mlchat-source --wheel --out-dir /wheels \
+    && uv pip install --python /app/.venv/bin/python --no-deps --no-index /wheels/*.whl \
+    && uv pip check --python /app/.venv/bin/python
+
+FROM python:3.12.12-slim-bookworm@sha256:593bd06efe90efa80dc4eee3948be7c0fde4134606dd40d8dd8dbcade98e669c
+RUN groupadd --gid 10001 gis && useradd --uid 10001 --gid gis --create-home gis
+WORKDIR /app
+COPY --from=builder --chown=gis:gis /app /app
+COPY --chown=gis:gis alembic.ini ./
+COPY --chown=gis:gis migrations ./migrations
+COPY --from=operations --chown=gis:gis /local_init.py /ops/local_init.py
+COPY --from=operations --chown=gis:gis /grant-runtime.sql /ops/grant-runtime.sql
+ENV PATH="/app/.venv/bin:$PATH" PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+USER gis
+EXPOSE 8000
+HEALTHCHECK --interval=5s --timeout=4s --start-period=10s \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/ready',timeout=3)"
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1", "--no-access-log"]
